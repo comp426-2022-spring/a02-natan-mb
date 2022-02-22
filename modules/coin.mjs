@@ -77,8 +77,14 @@ function countFlips(array) {
             tails++;
     });
 
+    if (heads == 0)
+        return "{ tails: " + tails + " }";
+    else if (tails == 0)
+        return "{ heads: " + heads + " }";
+
     return "{ heads: " + heads + ", tails: " + tails + " }";
-};
+
+}
 
 /** Flip a coin!
  * 
@@ -103,5 +109,5 @@ function flipACoin(call) {
  * Export all of your named functions
 */
 
-export { coinFlips, countFlips, flipACoin }
+export { coinFlips, countFlips, flipACoin };
 
