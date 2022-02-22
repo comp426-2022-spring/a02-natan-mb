@@ -15,9 +15,12 @@
   },
   "author": "Natan Beyero",
   "license": "GPL-3.0-or-later",
-  "type" : "module",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a02-natan-mb/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a02-natan-mb#readme"
+  "homepage": "https://github.com/comp426-2022-spring/a02-natan-mb#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
